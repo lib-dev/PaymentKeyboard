@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Keyboard</string>
+    <string name="pay_0">0</string>
+    <string name="pay_1">1</string>
+    <string name="pay_2">2</string>
+    <string name="pay_3">3</string>
+    <string name="pay_4">4</string>
+    <string name="pay_5">5</string>
+    <string name="pay_6">6</string>
+    <string name="pay_7">7</string>
+    <string name="pay_8">8</string>
+    <string name="pay_9">9</string>
+    <string name="pay_point">点</string>
+    <string name="pay_delete">退格</string>
+</resources>
