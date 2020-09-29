@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.alliwell.keyboard">
+    package="com.alliswell.payment">
 
     <application
         android:allowBackup="true"
