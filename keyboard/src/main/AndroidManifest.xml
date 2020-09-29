@@ -3,7 +3,7 @@
     package="com.alliwell.keyboard">
 
     <application>
-        <activity android:name=".KeyboardActivity"></activity>
+        <activity android:name=".Keyboard"></activity>
     </application>
 
 </manifest>

@@ -8,16 +8,19 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.alliwell.keyboard.callback.IResultCallback;
 import com.alliwell.keyboard.databinding.ActivityKeyboardBinding;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class KeyboardActivity extends AppCompatActivity implements View.OnClickListener{
+public class Keyboard extends AppCompatActivity implements View.OnClickListener {
 
-    private final static String TAG = KeyboardActivity.class.getSimpleName();
+    private final static String TAG = Keyboard.class.getSimpleName();
 
     ActivityKeyboardBinding binding;
+
+    IResultCallback iResultCallback;
 
     //支付键盘变量
     private int keyboardPoint = 0;
@@ -143,6 +146,8 @@ public class KeyboardActivity extends AppCompatActivity implements View.OnClickL
                 builder.deleteCharAt(builder.length() - 1);
             }
         }
+
+        iResultCallback.result(builder.toString());
 //        else if (id == R.id.pay_back) {
 //            finish();
 //        }
