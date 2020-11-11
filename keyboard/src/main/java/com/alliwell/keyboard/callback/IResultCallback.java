@@ -7,4 +7,6 @@ package com.alliwell.keyboard.callback;
  */
 public interface IResultCallback {
     void result(String res);
+
+    void clickOk();
 }
